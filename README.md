@@ -16,7 +16,7 @@ When you start up your VM, run two commands and make sure the output matches min
 ifconfig
 ```
 
-![](Images/IfConfig.png)
+![](https://github.com/mstevens5/333_A2_Usage/Images/IfConfig.png)
 
 ```sh
 ip link
