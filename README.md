@@ -16,16 +16,16 @@ Here I have collected a few miscellaneous topics that may be useful/interesting.
 1. Turn on VM and hold shift. 
 2. When the Grub menu pops up, press c. This will bring you to the Grub prompt.  
 3. On the prompt type:
-```sh
+```shell
 videoinfo 
 ```
 4. Observe the output to determine possible screen resolutions supported.  
 5. Then reboot via:
-```sh
+```shell
 reboot
 ```
 6. Log in to Linux normally  
-```sh
+```shell
 # Edit or add the following line (assuming you want a 1400 X 1050 X 32 resolution)
 # GRUB_GFXMODE=1400x1050x32
 nvim /etc/default/grub
