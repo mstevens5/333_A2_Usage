@@ -1,30 +1,58 @@
-# Overview - Linux VM
+# VM Usage Guide and Troubleshooting
+
+## Contents
+
+1. Linux Host
+2. Windows Host
+3. Troubleshooting
+
+# Linux Host
+
+### Network Interfaces
+
+When you start up your VM, run two commands and make sure the output matches mine:
+
+```sh
+ifconfig
+```
+
+![](Images/IfConfig.png)
+
+```sh
+ip link
+```
+
+![](Images/IpLink.png)
 
 Here I have collected a few miscellaneous topics that may be useful/interesting. The topics include:
-1. ### **Changing screen resolution**
-2. ### **Changing font size**
-3. ### **Enabling shared folder between host and guest OS**
-4. ### **ZSH shell**
+1. ### Changing screen resolution
+2. ### Changing font size
+3. ### Enabling shared folder between host and guest OS
+4. ### ZSH shell
 
 
 ## 1. Change screen resolution
 
-#### ******* `Note`: Do this at your own risk. It worked for me, but I cannot guarantee the same for you *******
+#### `Note`: Do this at your own risk. It worked for me, but I cannot guarantee the same for you 
 
 ### First, we enter Grub prompt to determine supported screen resolutions:
 
 1. Turn on VM and hold shift. 
 2. When the Grub menu pops up, press c. This will bring you to the Grub prompt.  
 3. On the prompt type:
+
 ```sh
 videoinfo 
 ```
+
 4. Observe the output to determine possible screen resolutions supported.  
 5. Then reboot via:
+
 ```sh
 reboot
 ```
-6. Log in to Linux normally
+
+6. Log in to Linux normally  
 ```sh
 # Edit or add the following line (assuming you want a 1400 X 1050 X 32 resolution)
 # GRUB_GFXMODE=1400x1050x32
