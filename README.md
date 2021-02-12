@@ -22,4 +22,4 @@ ifconfig
 ip link
 ```
 
-![](Images/IpLink.png)
+![](/Images/IpLink.png)
