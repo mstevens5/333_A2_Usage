@@ -21,11 +21,11 @@ videoinfo
 ```
 4. Observe the output to determine possible screen resolutions supported.  
 5. Then reboot via:
-```shell
+```console
 reboot
 ```
 6. Log in to Linux normally  
-```shell
+```console
 # Edit or add the following line (assuming you want a 1400 X 1050 X 32 resolution)
 # GRUB_GFXMODE=1400x1050x32
 nvim /etc/default/grub
