@@ -24,7 +24,7 @@ videoinfo
 ```sh
 reboot
 ```
-6. Log in to Linux normally
+6. Log in to Linux normally  
 ```sh
 # Edit or add the following line (assuming you want a 1400 X 1050 X 32 resolution)
 # GRUB_GFXMODE=1400x1050x32
