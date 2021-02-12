@@ -10,7 +10,7 @@
 
 ### Network Interfaces
 
-When you start up your VM, run two commands and make sure the output matches mine:
+When you start up your Linux host, run three commands and make sure the output matches mine:
 
 ```sh
 ifconfig
@@ -22,4 +22,10 @@ ifconfig
 ip link
 ```
 
-![Ip Link](Images/IpLink.PNG)
+![Ip Link](Images/IpLink.PNG)  
+
+```sh
+route
+```
+
+![route output](Images/route.PNG)
