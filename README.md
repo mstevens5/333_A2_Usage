@@ -1,6 +1,6 @@
 # VM Usage Guide and Troubleshooting
 
-# Contents
+# Table of Contents
 
 1. [Linux Host](#linux-host)
 2. [Windows Host](#windows-host)
@@ -9,7 +9,7 @@
 
 # Linux Host
 
-### Network Interfaces
+## Network Interfaces
 
 When you start up your Linux host, check to make sure your network interfaces are set up correclty. If they are not, you will not be able to do the assignment. First run ifconfig and make sure your output matches the pictures below. I have outlined the three interfaces in color, where:
 * Green: enp0s3 - IP address 10.229.1.1
@@ -38,7 +38,7 @@ route
 
 ![route output](Images/route.PNG)
 
-Note: when you run ifconfig, just make sure that both the enp0s3 and the enp0s8 interfaces are up and they have their respective ip addresses: 10.229.1.1 for enp0s3 and 10.229.100.1 for enp0s8. In the screenshot you can see the ip addresses right beside the word `inet`.  
+
 
 ---
 
