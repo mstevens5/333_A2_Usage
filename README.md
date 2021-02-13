@@ -2,9 +2,9 @@
 
 # Contents
 
-1. Linux Host
-2. Windows Host
-3. Troubleshooting
+1. [Linux Host](#linux-host)
+2. [Windows Host](#windows-host)
+3. [Troubleshooting](#troubleshooting)
 
 
 # Linux Host
@@ -42,13 +42,13 @@ Note: when you run ifconfig, just make sure that both the enp0s3 and the enp0s8 
 
 ---
 
-# 2. Windows Host
+# Windows Host
 
 
 
 ---
 
-# 3. Troubleshooting
+# Troubleshooting
 
 ## Errors While Importing/Running VMs
 
@@ -66,4 +66,3 @@ This is a weird one. So far these are the two solutions that have worked:
 2. When importing, `dont` click on the "Import hard drives as VDI". Make sure it is unchecked. This will result in a .vmdk hard disk file instead of .vdi
 
 
-[create an anchor](#linux-host)
