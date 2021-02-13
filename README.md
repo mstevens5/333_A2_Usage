@@ -7,7 +7,7 @@
 3. Troubleshooting
 
 
-# 1. Linux Host
+# Linux Host
 
 ### Network Interfaces
 
@@ -66,4 +66,4 @@ This is a weird one. So far these are the two solutions that have worked:
 2. When importing, `dont` click on the "Import hard drives as VDI". Make sure it is unchecked. This will result in a .vmdk hard disk file instead of .vdi
 
 
-[create an anchor](#1.-linux-host)
+[create an anchor](#linux-host)
