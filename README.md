@@ -72,7 +72,7 @@ I have created a very simple shell script that you can run to "turn on" and "tur
 
 ```sh
 internet_on.sh   # This will bring up your enp0s9 interface and run dhcpd for an IP address
-internet_off.sh  # Release dchcp lease and grin the enp0s9 interface down
+internet_off.sh  # Release dchcp lease and bring the enp0s9 interface down
 ```
 
 Note that after you run `internet_on.sh`, you should see an additional enp0s9 interface when running ipconfig. Also if you run the route command you will most likely see two new routes like so: 
