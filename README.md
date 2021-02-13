@@ -19,7 +19,9 @@
 
 ### Network Interfaces
 
-When you start up your Linux host, check to make sure your network interfaces are set up correclty. If they are not, you will not be able to do the assignment. **Keep in mind that the intefaces might not be set up correctly the very first time you run your VM, just shut it down and try again. If you have any problems, let me know and I can give you an easy fix.** First run ifconfig and make sure your output matches the pictures below. I have outlined the three interfaces in color, where:
+When you start up your Linux host, check to make sure your network interfaces are set up correclty. If they are not, you will not be able to do the assignment. **Keep in mind that the intefaces might not be set up correctly the very first time you run your VM, just shut it down and try again. If you have any problems, let me know and I can give you an easy fix.**  
+
+#### First run ifconfig and make sure your output matches the pictures below. I have outlined the three interfaces in color, where:
 * Green: enp0s3 - IP address 10.229.1.1
 * Red: enp0s8 - 10.229.100.1
 * yellow: lo - 127.0.0.1
