@@ -4,14 +4,22 @@
 
 1. [Linux Host](#linux-host)
 2. [Windows Host](#windows-host)
+3. [Other Linux 1 and 2](#other-linux-1-and-2)
 3. [Troubleshooting](#troubleshooting)
 
 
 # Linux Host
 
-## Network Interfaces
+## Contents:
+1. [Network Interfaces](network-interfaces)
+2. [Text Editor](text-editor)
+3. [Useful Tools](useful-tools)
+4. [Internet Access](internet-access)
+5. [Shutting Down Your VM](shutting-down-your-vm)
 
-When you start up your Linux host, check to make sure your network interfaces are set up correclty. If they are not, you will not be able to do the assignment. First run ifconfig and make sure your output matches the pictures below. I have outlined the three interfaces in color, where:
+### Network Interfaces
+
+When you start up your Linux host, check to make sure your network interfaces are set up correclty. If they are not, you will not be able to do the assignment. **Keep in mind that the intefaces might not be set up correclty the first time you run your VM, just shut it down and try again. If you have any problems, let me know and I can give you an easy fix.** First run ifconfig and make sure your output matches the pictures below. I have outlined the three interfaces in color, where:
 * Green: enp0s3 - IP address 10.229.1.1
 * Red: enp0s8 - 10.229.100.1
 * yellow: lo - 127.0.0.1
@@ -39,12 +47,42 @@ route
 ![route output](Images/route.PNG)
 
 
+### Text Editor
+
+I have installed Neovim on the Linux Host machine. To run it, type:
+
+```sh
+nvim <filename>  # Where <filename> is the path of the file you want to create/edit
+```
+
+Neovim is a form of Vim. 
+
+### Useful Programs
+
+* htop
+* tmux
+* hexdump
+
+### Internet Access
+
+I have created a very simply shell script that you can run to "turn on" and "turn off" the internet, so to speak.
+
+```sh
+internet_on.sh   # This will bring up your enp0s9 interface and run dhcpd for an IP address
+internet_off.sh  # Release dchcp lease and grin the enp0s9 interface down
+```
+
+Note that after you run `internet_on.sh`, you should see an additional enp0s9 interface when running ipconfig. Also if you run the route command you will most likely see two new routes like so: 
 
 ---
 
 # Windows Host
 
 
+
+---
+
+# Other Linux 1 and 2
 
 ---
 
