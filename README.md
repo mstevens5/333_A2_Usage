@@ -62,6 +62,7 @@ Neovim is a fork of Vim.
 * htop
 * tmux
 * hexdump
+* tcpdump
 
 ### Internet Access
 
