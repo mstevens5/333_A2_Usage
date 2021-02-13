@@ -74,7 +74,7 @@ internet_off.sh  # Release dchcp lease and grin the enp0s9 interface down
 
 Note that after you run `internet_on.sh`, you should see an additional enp0s9 interface when running ipconfig. Also if you run the route command you will most likely see two new routes like so: 
 
-![Ip Link](Images/route_internet_on.PNG)  
+![](Images/route_internet_on.PNG)  
 
 ---
 
