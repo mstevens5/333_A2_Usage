@@ -1,5 +1,5 @@
 # VM Usage Guide and Troubleshooting
-[create an anchor](#linux_host)
+[create an anchor](#-1.-Linux-Host)
 # Contents
 
 1. Linux Host
@@ -7,7 +7,6 @@
 3. Troubleshooting
 
 
-#linux_host
 # 1. Linux Host
 
 ### Network Interfaces
