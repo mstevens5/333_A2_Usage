@@ -30,7 +30,9 @@ route
 
 ![route output](Images/route.PNG)
 
-Note: when you run ifconfig, just make sure that both the enp0s3 and the enp0s8 interfaces are up and they have their respective ip addresses: 10.229.1.1 for enp0s3 and 10.229.100.1 for enp0s8.
+Note: when you run ifconfig, just make sure that both the enp0s3 and the enp0s8 interfaces are up and they have their respective ip addresses: 10.229.1.1 for enp0s3 and 10.229.100.1 for enp0s8. In the screenshot you can see the ip addresses right beside the word `inet`.  
+
+If you only see the loopback interface (lo)
 
 ---
 
