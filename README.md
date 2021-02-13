@@ -30,9 +30,15 @@ route
 
 ![route output](Images/route.PNG)
 
+Note: when you run ifconfig, just make sure that both the enp0s3 and the enp0s8 interfaces are up and they have their respective ip addresses: 10.229.1.1 for enp0s3 and 10.229.100.1 for enp0s8.
+
+---
 
 # 2. Windows Host
 
+
+
+---
 
 # 3. Troubleshooting
 
@@ -43,6 +49,7 @@ route
 1. If you get this error, go to your system settings and click on Security & Privacy.
 2. Go to the general tab and click on the "Allow" button at the bottom next to "System software from developer "Oracle America, Inc" was blocked from loading"
 3. You may need to click on the little lock in the bottom left before you can click the Allow button
+4. You will have to restart your computer.
 
 ### SHA 256 Checksum errors:
 
