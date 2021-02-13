@@ -75,9 +75,11 @@ internet_on.sh   # This will bring up your enp0s9 interface and run dhcpd for an
 internet_off.sh  # Release dchcp lease and bring the enp0s9 interface down
 ```
 
-Note that after you run `internet_on.sh`, you should see an additional enp0s9 interface when running ipconfig. Also if you run the route command you will most likely see two new routes like so: 
+Note that after you run `internet_on.sh`, you should see an additional `enp0s9` interface when running `ipconfig`. Also if you run the `route` command you will most likely see two new routes like so (notice the two new ones at the top of my list): 
 
 ![](Images/route_internet_on.PNG)  
+
+After you run `internet_off.sh`, the `enp0s9` should be removed from `ifconfig` output, and your routes should be back to normal.
 
 ### Shutting Down Your VM
 
