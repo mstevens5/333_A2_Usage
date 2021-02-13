@@ -1,5 +1,5 @@
 # VM Usage Guide and Troubleshooting
-[create an anchor](#-1.-Linux-Host)
+
 # Contents
 
 1. Linux Host
@@ -64,3 +64,6 @@ Note: when you run ifconfig, just make sure that both the enp0s3 and the enp0s8 
 This is a weird one. So far these are the two solutions that have worked:
 1. Try to delete the VM and import it again. This may take a couple tries.
 2. When importing, `dont` click on the "Import hard drives as VDI". Make sure it is unchecked. This will result in a .vmdk hard disk file instead of .vdi
+
+
+[create an anchor](#-1.-Linux-Host)
