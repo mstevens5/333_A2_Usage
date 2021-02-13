@@ -32,7 +32,7 @@ ifconfig
 
 ![](Images/IfConfig.PNG)
 
-Next, run the following command and make sure you have 4 interfaces: lo, enp0s3, enp0s8, enp0s9.
+#### Next, run the following command and make sure you have 4 interfaces: lo, enp0s3, enp0s8, enp0s9.
 
 ```sh
 ip link
@@ -40,7 +40,7 @@ ip link
 
 ![Ip Link](Images/IpLink.PNG)  
 
-Lastly, lets make sure all routes are correctly in place. The order shouldnt matter much, just make sure you have all four routes:
+#### Lastly, lets make sure all routes are correctly in place. The order shouldnt matter much, just make sure you have all four routes:
 
 ```sh
 route
