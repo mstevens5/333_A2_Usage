@@ -55,7 +55,7 @@ I have installed Neovim on the Linux Host machine. To run it, type:
 nvim <filename>  # Where <filename> is the path of the file you want to create/edit
 ```
 
-Neovim is a form of Vim. 
+Neovim is a fork of Vim. 
 
 ### Useful Programs
 
@@ -65,7 +65,7 @@ Neovim is a form of Vim.
 
 ### Internet Access
 
-I have created a very simply shell script that you can run to "turn on" and "turn off" the internet, so to speak.
+I have created a very simple shell script that you can run to "turn on" and "turn off" the internet, so to speak. These are in your path so you can run them from anywhere.
 
 ```sh
 internet_on.sh   # This will bring up your enp0s9 interface and run dhcpd for an IP address
@@ -73,6 +73,8 @@ internet_off.sh  # Release dchcp lease and grin the enp0s9 interface down
 ```
 
 Note that after you run `internet_on.sh`, you should see an additional enp0s9 interface when running ipconfig. Also if you run the route command you will most likely see two new routes like so: 
+
+![Ip Link](Images/route_internet_on.PNG)  
 
 ---
 
