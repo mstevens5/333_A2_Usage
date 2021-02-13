@@ -11,11 +11,11 @@
 # Linux Host
 
 ## Contents:
-1. [Network Interfaces](network-interfaces)
-2. [Text Editor](text-editor)
-3. [Useful Tools](useful-tools)
-4. [Internet Access](internet-access)
-5. [Shutting Down Your VM](shutting-down-your-vm)
+1. [Network Interfaces](#network-interfaces)
+2. [Text Editor](#text-editor)
+3. [Useful Tools](#useful-tools)
+4. [Internet Access](#internet-access)
+5. [Shutting Down Your VM](#shutting-down-your-vm)
 
 ### Network Interfaces
 
