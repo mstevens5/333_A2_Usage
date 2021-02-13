@@ -89,11 +89,13 @@ shutdown -h now
 
 # Windows Host
 
-
+More to come...
 
 ---
 
 # Other Linux 1 and 2
+
+More to come...
 
 ---
 
