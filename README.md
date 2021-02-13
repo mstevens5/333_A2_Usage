@@ -76,6 +76,14 @@ Note that after you run `internet_on.sh`, you should see an additional enp0s9 in
 
 ![](Images/route_internet_on.PNG)  
 
+### Shutting Down Your VM
+
+From the command line, you can type:
+
+```sh
+shutdown -h now
+```
+
 ---
 
 # Windows Host
