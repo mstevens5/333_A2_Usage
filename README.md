@@ -3,6 +3,11 @@
 # Table of Contents
 
 1. [Linux Host](#linux-host)
+  * [Network Interfaces](#network-interfaces)
+  * [Text Editor](#text-editor)
+  * [Useful Tools](#useful-tools)
+  * [Internet Access](#internet-access)
+  * [Shutting Down Your VM](#shutting-down-your-vm)
 2. [Windows Host](#windows-host)
 3. [Other Linux 1 and 2](#other-linux-1-and-2)
 3. [Troubleshooting](#troubleshooting)
