@@ -61,10 +61,12 @@ Neovim is a fork of Vim.
 
 ### Useful Programs
 
+* wget
+* ftp
 * htop
 * tmux
-* hexdump
 * tcpdump
+* hexdump
 
 ### Internet Access
 
