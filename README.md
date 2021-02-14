@@ -103,10 +103,10 @@ More to come...
 
 ## Contents:
 
-[Overview](#overview)
-[Service Request Format](#service-request-format)
-[Starting The VM](#starting-the-vm)
-[Shutting Down The VM](#shutting-down-the-vm)
+1. [Overview](#overview)
+2. [Service Request Format](#service-request-format)
+3. [Starting The VM](#starting-the-vm)
+4. [Shutting Down The VM](#shutting-down-the-vm)
 
 ## Overview
 
