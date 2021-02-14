@@ -101,11 +101,18 @@ More to come...
 
 # Other Linux 1 and 2
 
+## Contents:
+
+[Overview](#overview)
+[Service Request Format](#service-request-format)
+[Starting The VM](#starting-the-vm)
+[Shutting Down The VM](#shutting-down-the-vm)
+
 ## Overview
 
 These two VMs (`OtherLinux1` and `OtherLinux2`) are merely there for testing purposes. For the most part you will only need to use them to test your firewall rules for part 3 of the assignment. When you run these two VMs, they will continuously send requests to both of you host VMs (`OurWindows` and `OurLinux`) for services that you are firewalling against. 
 
-### Service Request Format:
+### Service Request Format
 
 Keep in mind you do not necessarily have to service these requests, they are just there so you can test to see if you firewall rules are correct by monitoring traffic. That being said, every minute each `OtherLinux` VM will send out traffic in the following form (in this order):
 
@@ -124,11 +131,11 @@ Keep in mind you do not necessarily have to service these requests, they are jus
 
 ### Starting The VM
 
-To start these two VMs you can either start them as you normally would (by clicking the start button), or you can start them in headless mode. In headless mode the VM will run in the background. To start in headless mode simply click on the little downward arrow next to the start button and select headless mode (or detachable if you prefer). If you ever wish to bring the headless/detachable VM to the foreground, just click on the show button in VirtualBox. After doing so, you can always send it to the background again by accessing the menu at the top of the running VM. Click on Machine->Detach Gui.
+To start these two VMs you can either start them as you normally would (by clicking the start button), or you can start them in headless mode. In headless mode the VM will run in the background. To start in headless mode simply click on the little downward arrow next to the start button and select headless mode (or detachable if you prefer). If you ever wish to bring the headless/detachable VM to the foreground, just click on the show button in VirtualBox. After doing so, you can always send it to the background again by accessing the menu at the top of the running VM. Click on `Machine->Detach Gui`.
 
-### Stopping the VM
+### Shutting Down The VM
 
-You are not able to log into either of these VMs, so your best bet to shut them down is to right click on them in VirtualBox and select close-->ACPI Shutdown.
+You are not able to log into either of these VMs, so your best bet to shut them down is to right click on them in VirtualBox and select `close-->ACPI Shutdown`.
 
 ---
 
