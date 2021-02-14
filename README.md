@@ -10,6 +10,10 @@
     * [Shutting Down Your VM](#shutting-down-your-vm)
 2. [Windows Host](#windows-host)
 3. [Other Linux 1 and 2](#other-linux-1-and-2)
+    * [Overview](#overview)
+    * [Service Request Format](#service-request-format)
+    * [Starting The VM](#starting-the-vm)
+    * [Shutting Down The VM](#shutting-down-the-vm)
 3. [Troubleshooting](#troubleshooting)
 
 
