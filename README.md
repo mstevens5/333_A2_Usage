@@ -143,6 +143,7 @@ shutdown -h now
 ```sh
 videoinfo 
 ```  
+
 5. Observe the output to determine possible screen resolutions supported (the screenshot from step 3 shows my output).  
 6. Then reboot via:  
 
