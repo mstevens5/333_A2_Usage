@@ -139,18 +139,14 @@ shutdown -h now
 3. This will bring you to the Grub prompt (see below).  
 ![](Images/Grub_Prompt.PNG)  
 4. On the prompt type:  
-
 ```sh
 videoinfo 
 ```  
-
 5. Observe the output to determine possible screen resolutions supported (the screenshot from step 3 shows my output).  
 6. Then reboot via:  
-
 ```sh
 reboot
 ```  
-
 7. Log in to Linux normally  
 
 ```sh
