@@ -3,7 +3,8 @@
 # Table of Contents
 
 1. [Linux Host](#linux-host)
-    * [Network Interfaces](#network-interfaces)
+    * [Network Interfaces and Routes](#network-interfaces-and-routes)
+    * [Fixing Network Interfaces and Routes](#fixing-network-interfaces-and-routes)
     * [Text Editor](#text-editor)
     * [Useful Tools](#useful-tools)
     * [Internet Access](#internet-access)
@@ -32,7 +33,7 @@
 4. [Internet Access](#internet-access)
 5. [Shutting Down Your VM](#shutting-down-your-vm)
 
-### Network Interfaces
+### Network Interfaces and Routes
 
 When you start up your Linux host, check to make sure your network interfaces are set up correclty. If they are not, you will not be able to do the assignment. **Keep in mind that the intefaces might not be set up correctly the very first time you run your VM, just shut it down and try again. If you have any problems, let me know and I can give you an easy fix.**  
 
@@ -61,8 +62,28 @@ ip link
 route
 ```
 
-![route output](Images/route.PNG)
+![route output](Images/route.PNG)  
 
+
+### Fixing Network Interfaces and Routes  
+
+If your enp0s3 interface is not set up correctly with ip address 10.229.1.1, run the following script:
+
+```sh
+/usr/bin/network_init_local.sh
+```
+
+If your enp0s8 interface is not set up correctly with ip address 10.229.100.1, run the following script:
+
+```sh
+/usr/bin/network_init_backbone.sh
+```
+
+If you routes are not set up correctly, run the following script:
+
+```sh
+/usr/bin/add_routes_to_our_linux.sh
+```
 
 ### Text Editor
 
@@ -226,6 +247,8 @@ Keep in mind you do not necessarily have to service these requests, they are jus
 * SSH request to Windows host
 * HTTP request to Linux host
 * HTTP request to Windows host
+
+If you are not seeing traffic from the OtherLinux machines, let me know and I can upload two new OtherLinux VMs with a fix.
 
 ### Starting The VM
 
