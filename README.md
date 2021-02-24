@@ -19,7 +19,7 @@
     * [Starting The VM](#starting-the-vm)
     * [Shutting Down The VM](#shutting-down-the-vm)
 5. [Troubleshooting](#troubleshooting)
-    * [Mac - kernel driver not installed (rc=-1908)](#mac---kernel-driver-not-installed-(rc=-1908))
+    * [Mac - kernel driver not installed (rc=-1908)](#mac---kernel-driver-not-installed)
 
 
 # Linux Host
@@ -240,7 +240,7 @@ You are not able to log into either of these VMs, so your best bet to shut them 
 
 ## Errors While Importing/Running VMs
 
-### Mac - kernel driver not installed (rc=-1908)
+### Mac - kernel driver not installed
 
 1. If you get this error, go to your system settings and click on Security & Privacy.
 2. Go to the general tab and click on the "Allow" button at the bottom next to "System software from developer "Oracle America, Inc" was blocked from loading"
