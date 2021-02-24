@@ -8,16 +8,17 @@
     * [Useful Tools](#useful-tools)
     * [Internet Access](#internet-access)
     * [Shutting Down Your VM](#shutting-down-your-vm)
-    * [Change screen resolution (Feb 23)](#change-screen-resolution)
-    * [Change font size (Feb 23)](#change-font-size)
-    * [Adding a shared folder (Feb 23)](#adding-a-shared-folder)
+    * [Change screen resolution](#change-screen-resolution)
+    * [Change font size](#change-font-size)
+    * [Adding a shared folder](#adding-a-shared-folder)
 2. [Windows Host](#windows-host)
-3. [Other Linux 1 and 2](#other-linux-1-and-2)
+    * [Shared Folder](#shared-folder)
+4. [Other Linux 1 and 2](#other-linux-1-and-2)
     * [Overview](#overview)
     * [Service Request Format](#service-request-format)
     * [Starting The VM](#starting-the-vm)
     * [Shutting Down The VM](#shutting-down-the-vm)
-3. [Troubleshooting](#troubleshooting)
+5. [Troubleshooting](#troubleshooting)
 
 
 # Linux Host
@@ -178,7 +179,19 @@ I usually click "Auto-mount" but it is up to you.
 
 # Windows Host
 
-More to come...
+## Contents:
+
+1. [Shared Folder](#shared-folder)
+
+### Shared Folder
+* Shutdown VM
+* In VirtualBox, click on settings and then Shared folders
+* Add a Machine Folder
+* Folder Path: Your host OS
+* Folder Name: Your host OS
+* I usually click Auto-mount and Make Permanent (You can research these yourself)
+* Mount point: This would be the path on your guest OS where you want the shared folder mounted. It seems like you can ignore this for the most part on Windows.
+* Start your VM and open File Explorer. You should see a new drive under "This PC" or "Network".
 
 ---
 
