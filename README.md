@@ -9,6 +9,8 @@
     * [Internet Access](#internet-access)
     * [Shutting Down Your VM](#shutting-down-your-vm)
     * [Change screen resolution](#change-screen-resolution)
+    * [Change font size](#change-font-size)
+    * [Adding a shared folder](#adding-a-shared-folder)
 2. [Windows Host](#windows-host)
 3. [Other Linux 1 and 2](#other-linux-1-and-2)
     * [Overview](#overview)
@@ -110,22 +112,22 @@ shutdown -h now
 1. Turn on VM and hold shift. 
 2. When the Grub menu pops up (see below), press c. 
 ![](Images/Grub_Menu.PNG)  
-4. This will bring you to the Grub prompt (see below).  
+3. This will bring you to the Grub prompt (see below).  
 ![](Images/Grub_Prompt.PNG)  
-6. On the prompt type:
+4. On the prompt type:
 
 ```sh
 videoinfo 
 ```
 
-4. Observe the output to determine possible screen resolutions supported (the screenshot from step 4 shows my output).  
-5. Then reboot via:
+5. Observe the output to determine possible screen resolutions supported (the screenshot from step 3 shows my output).  
+6. Then reboot via:
 
 ```sh
 reboot
 ```
 
-6. Log in to Linux normally  
+7. Log in to Linux normally  
 
 ```sh
 # Edit or add the following line (assuming you want a 1400 X 1050 X 32 resolution)
