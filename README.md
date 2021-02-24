@@ -20,6 +20,7 @@
     * [Shutting Down The VM](#shutting-down-the-vm)
 5. [Troubleshooting](#troubleshooting)
     * [Mac - kernel driver not installed (rc=-1908)](#mac---kernel-driver-not-installed)
+    * [SHA 256 Checksum errors:](#sha-256-checksum-errors:)
 
 
 # Linux Host
