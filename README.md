@@ -181,15 +181,13 @@ systemctl enable vboxservice
 ```
 3. Next, shutdown your VM, open VirtualBox and go to the settings for your VM.
 4. Click on the Shared Folders tab
-5. Click on the green plus sign (on the right) and fill out the apopropriate information
-
+5. Click on the green plus sign (on the right) and fill out the apopropriate information  
 ```
 Folder Path: the path to a directory on your host OS where you want to share files.
 Folder Name: on your host OS
 Mount Point: the directory on your guest OS (/home/shared/ for example)
 I usually click "Auto-mount" but it is up to you. 
-``` 
-
+```  
 6. Start VM and log in as root  
 7. Note: The persmissions for /home/shared will be changed to group vboxsf   
 8. Now you can share files between host and guest OS by using /home/shared on the OurLinux VM and whichever folder you desginated in step 5.
