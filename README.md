@@ -8,6 +8,7 @@
     * [Useful Tools](#useful-tools)
     * [Internet Access](#internet-access)
     * [Shutting Down Your VM](#shutting-down-your-vm)
+    * [Change screen resolution](#change-screen-resolution)
 2. [Windows Host](#windows-host)
 3. [Other Linux 1 and 2](#other-linux-1-and-2)
     * [Overview](#overview)
@@ -107,8 +108,11 @@ shutdown -h now
 #### First, we enter Grub prompt to determine supported screen resolutions:
 
 1. Turn on VM and hold shift. 
-2. When the Grub menu pops up, press c. This will bring you to the Grub prompt.  
-3. On the prompt type:
+2. When the Grub menu pops up, press c. 
+![](Images/Grub_Menu.PNG)  
+4. This will bring you to the Grub prompt.  
+![](Images/Grub_Prompt.PNG)  
+6. On the prompt type:
 
 ```sh
 videoinfo 
