@@ -148,7 +148,6 @@ videoinfo
 reboot
 ```  
 7. Log in to Linux normally  
-
 ```sh
 # Edit or add the following line (assuming you want a 1400 X 1050 X 32 resolution)
 # GRUB_GFXMODE=1400x1050x32
@@ -156,8 +155,10 @@ nvim /etc/default/grub
 
 # Next, update Grub
 grub-mkconfig -o /boot/grub/grub.cfg
-```
 
+# Restart your VM
+sudo reboot now
+```
 
 ### Change font size
 If your font is extremely small, you may want to make it bigger. Keep in mind I have limited experience with this because the font size on my VM was fine so feel free to experiment if you like. Also, I just used terminus-font as an example. There may be other fonts you can use as well.  
