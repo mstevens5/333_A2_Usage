@@ -20,7 +20,7 @@
     * [Shutting Down The VM](#shutting-down-the-vm)
 5. [Troubleshooting](#troubleshooting)
     * [Mac - kernel driver not installed (rc=-1908)](#mac---kernel-driver-not-installed)
-    * [SHA 256 Checksum errors:](#sha-256-checksum-errors:)
+    * [SHA 256 Checksum errors](#sha-256-checksum-errors)
 
 
 # Linux Host
@@ -248,7 +248,7 @@ You are not able to log into either of these VMs, so your best bet to shut them 
 3. You may need to click on the little lock in the bottom left before you can click the Allow button
 4. You will have to restart your computer.
 
-### SHA 256 Checksum errors:
+### SHA 256 Checksum errors
 
 This is a weird one. So far these are the two solutions that have worked:
 1. Try to delete the VM and import it again. This may take a couple tries.
