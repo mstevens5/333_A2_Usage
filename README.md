@@ -3,7 +3,7 @@
 # Table of Contents
 
 1. [Linux Host](#linux-host)
-    * [*Network Interfaces and Routes](#network-interfaces-and-routes)
+    * [Network Interfaces and Routes](#network-interfaces-and-routes)
     * [*Fixing Network Interfaces and Routes](#fixing-network-interfaces-and-routes)
     * [Text Editor](#text-editor)
     * [Useful Tools](#useful-tools)
