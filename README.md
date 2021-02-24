@@ -19,6 +19,7 @@
     * [Starting The VM](#starting-the-vm)
     * [Shutting Down The VM](#shutting-down-the-vm)
 5. [Troubleshooting](#troubleshooting)
+    * [Mac - kernel driver not installed (rc=-1908)](#mac---kernel-driver-not-installed-(rc=-1908))
 
 
 # Linux Host
