@@ -100,6 +100,73 @@ From the command line, you can type:
 shutdown -h now
 ```
 
+### Change screen resolution
+
+#### `Note`: Do this at your own risk. It worked for me, but I cannot guarantee the same for you.  
+
+#### First, we enter Grub prompt to determine supported screen resolutions:
+
+1. Turn on VM and hold shift. 
+2. When the Grub menu pops up, press c. This will bring you to the Grub prompt.  
+3. On the prompt type:
+
+```sh
+videoinfo 
+```
+
+4. Observe the output to determine possible screen resolutions supported.  
+5. Then reboot via:
+
+```sh
+reboot
+```
+
+6. Log in to Linux normally  
+```sh
+# Edit or add the following line (assuming you want a 1400 X 1050 X 32 resolution)
+# GRUB_GFXMODE=1400x1050x32
+nvim /etc/default/grub
+
+# Next, update Grub
+grub-mkconfig -o /boot/grub/grub.cfg
+```
+
+
+### Change font size
+If your font is extremely small, you may want to make it bigger. Keep in mind I have limited experience with this because the font size on my VM was fine so feel free to experiment if you like. Also, I just used terminus-font as an example. There may be other fonts you can use as well.  
+
+1. First, make sure you are connected to the internet, then enter the following:
+
+```sh
+pacman -S terminus-font  # Get terminus font
+setfont ter-132n         # Change font to larger terminus font
+setfont                  # Restore default font
+```
+
+### Adding a shared folder
+
+1. First, log on to your VM and create a directory that you want to use as your mount point for sharing with your host OS. (You can use the /home/shared/ directory if you wish. I created this folder for this exact purpose when I made the VMs.) I will assume you are using this path.
+2. Make sure the vboxservice is running:
+```sh
+systemctl status vboxservice 
+# If it says enabled, you are good to go. Otherwise you must enable it with the following command:
+systemctl enable vboxservice
+```
+3. Next, shutdown your VM, open VirtualBox and go to the settings for your VM.
+4. Click on the Shared Folders tab
+5. Click on the green plus sign (on the right) and fill out the apopropriate information
+
+```
+Folder Path: the path to a directory on your host OS where you want to share files.
+Folder Name: on your host OS
+Mount Point: the directory on your guest OS (/home/shared/ for example)
+I usually click "Auto-mount" but it is up to you. 
+``` 
+
+6. Start VM and log in as root  
+7. Note: The persmissions for /home/shared will be changed to group vboxsf   
+8. Now you can share files between host and guest OS by using /home/shared on the OurLinux VM and whichever folder you desginated in step 5.
+
 ---
 
 # Windows Host
