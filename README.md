@@ -108,9 +108,9 @@ shutdown -h now
 #### First, we enter Grub prompt to determine supported screen resolutions:
 
 1. Turn on VM and hold shift. 
-2. When the Grub menu pops up, press c. 
+2. When the Grub menu pops up (see below), press c. 
 ![](Images/Grub_Menu.PNG)  
-4. This will bring you to the Grub prompt.  
+4. This will bring you to the Grub prompt (see below).  
 ![](Images/Grub_Prompt.PNG)  
 6. On the prompt type:
 
