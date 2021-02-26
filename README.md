@@ -282,7 +282,7 @@ This is a weird one. So far these are the two solutions that have worked:
 brew install p7zip.
 ```  
 
-3. Then run  
+2. Then run  
 
 ```sh  
 7z e zip_file_name.zip
