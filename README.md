@@ -274,4 +274,17 @@ This is a weird one. So far these are the two solutions that have worked:
 1. Try to delete the VM and import it again. This may take a couple tries.
 2. When importing, `dont` click on the "Import hard drives as VDI". Make sure it is unchecked. This will result in a .vmdk hard disk file instead of .vdi
 
+### Mac - unzip start of central directory not found
+
+1. Try downloading 7z. If you have homebrew you can:  
+
+```sh
+brew install p7zip.
+```  
+
+3. Then run  
+
+```sh  
+7z e zip_file_name.zip
+```
 
