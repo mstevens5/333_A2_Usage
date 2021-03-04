@@ -101,8 +101,8 @@ Neovim is a fork of Vim.
 * ftp
 * htop
 * tmux
+* screen 
 * tcpdump
-* hexdump
 
 ### Internet Access
 
