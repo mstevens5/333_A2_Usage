@@ -230,7 +230,7 @@ These two VMs (`OtherLinux1` and `OtherLinux2`) are merely there for testing pur
 
 ### Service Request Format
 
-Keep in mind you do not necessarily have to service these requests, they are just there so you can test to see if you firewall rules are correct by monitoring traffic. That being said, every minute each `OtherLinux` VM will send out traffic in the following form (in this order):
+Keep in mind you do not necessarily have to service these requests, they are just there so you can test to see if you firewall rules are correct by monitoring traffic. I have implemented timeouts for each request so that they do not exceed 3-4 seconds per request. That being said, every minute each `OtherLinux` VM will send out all of the following traffic (in this order):
 
 * 1 ping to Linux host
 * 1 passive FTP request to Linux host
@@ -245,7 +245,7 @@ Keep in mind you do not necessarily have to service these requests, they are jus
 * HTTP request to Linux host
 * HTTP request to Windows host
 
-If you are not seeing traffic from the OtherLinux machines, let me know and I can upload two new OtherLinux VMs with a fix.
+If you are **not** seeing traffic from the OtherLinux machines, let me know and I can upload two new OtherLinux VMs with a fix.
 
 ### Starting The VM
 
